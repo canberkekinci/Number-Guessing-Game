@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+#generated-num {
+    display: none;
+    font-size: 35px;
+}
+
+#guess {
+    display: none;
+    width: 200px;
+    height: 20px;
+}
+
+#submit {
+    display: none;
+    margin-top: 20px;
+}
+
+#win-label {
+    display: none;
+    font-size: 25px;
+}
+
+#lose-label {
+    display: none;
+    font-size: 25px;
+}
+
+#play-again {
+    display: none;
+}
+
+#heading {
+    font-size: 45px;
+}
+
+.btn {
+    width: 150px;
+    height: 30px;
+    background-color: azure;
+    border-color: rgb(224, 239, 239);
+    cursor: pointer;
+}
